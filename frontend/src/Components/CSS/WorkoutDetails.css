@@ -1,0 +1,26 @@
+/* layout */
+:root {
+    --primary: #5a4b9a;
+    --error: #e7195a;
+  }
+
+/* .workout-details{
+    width: 90%;
+} */
+.workout-details img {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    margin-left: auto;
+}
+
+button {
+    background: var(--primary);
+    border: 0;
+    color: #fff;
+    padding: 7px;
+    font-family: "Poppins";
+    border-radius: 4px;
+    cursor: pointer;
+}
