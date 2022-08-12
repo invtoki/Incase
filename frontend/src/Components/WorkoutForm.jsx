@@ -32,6 +32,7 @@ const WorkoutForm = ({fetchWorkouts}) => {
             }
         }catch{
             setError('couldnt post this data')
+            console.log(error)
         }
        
 
